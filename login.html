@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FITPRO - Login</title>y
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="signup-container"> 
+    <h2><b>Welcome Back</b></h2>
+    <p>Login to your account</p> 
+
+    
+
+    <button class="google-btn" onclick="googleLogin()">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/IOS_Google_icon.png" width="20">
+        Continue with Google
+    </button>
+
+    <div class="divider">
+        <span>or</span>
+    </div>
+    
+
+
+    <label>Email Address</label>
+    <input type="email" placeholder="eg.: welcometofitpro@gmail.com" id="loginEmail">
+
+    <label>Password</label>
+    <input type="password" placeholder="Enter your password" id="loginPassword">
+
+    <button type="button" onclick="loginUser()">LOGIN</button>
+
+    <div class="back-link" onclick="goBack()">Back to previous page</div>
+    
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

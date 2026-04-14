@@ -1,0 +1,287 @@
+/*body*/
+/*1st page*/
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #5fabf4;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;*/
+    margin: 0;
+    padding: 0;
+}
+
+
+/*landing page*/
+
+.container{
+    border: 2px solid black;
+    padding: 40px;
+    width: 320px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+.app-name{
+    margin-bottom: 20px;
+    color: #a90d0d;
+}
+
+
+/*font size of slogans*/
+h1{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/*font size of slogans ends here*/
+
+
+button{
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid black;
+    background: none;
+    border-radius: 999px;
+    background-color: #4f46e5;
+    color: white;
+}
+
+.line{
+    margin: 20px 0;
+    /*font-size: 14px;*/
+}
+
+.link{
+    /*font-size: 14px;*/
+    color: blue;
+    cursor: pointer;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+
+/*login page*/
+/*
+.login-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.login-container input{
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid#ccc;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.login-container button{
+    margin-top: 15px;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    background-color: #3897f0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover{
+    background-color: #2f80ed;
+}
+*/
+
+/*signup page + login page*/
+
+.signup-container{
+    width: 320px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.signup-container h2{
+    color: #a90d0d;
+    font-size: 25px;
+}
+
+.signup-container p{
+    font-size: 16px;
+}
+
+.signup-container h2, .signup-container p{
+    text-align: center;
+}
+
+.signup-container label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.signup-container input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #1e293b;
+    color: white;
+    font-size: 14px;
+}
+
+.signup-container input::placeholder{
+    color: #aaa;
+}
+
+.signup-container button{
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 999px;
+    background-color: #4f46e5;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-container button:hover{
+    background-color: #4338ca;
+}
+
+.back-link{
+    margin-top: 25px;
+    text-align: center;
+    color: #6e0404;
+    cursor: pointer;
+}
+
+.back-link:hover{
+    color: white;
+}
+
+
+/*google button part*/
+
+.google-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    padding: 14px;
+    border-radius: 999px;
+    border: 1px solid #555;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.google-btn:hover{
+    background-color: #1e293b;
+}
+
+/*divider*/
+
+.divider{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #aaa;
+}
+
+.divider::before, .divider::after{
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #555;
+}
+
+.divider span{
+    margin: 0 10px;
+}
+
+/*google part ends here*/
+
+
+
+/*personal details page*/
+
+.details-container {
+    width: 320px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.details-container h2, .details-container p{
+    text-align: center;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label{
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.form-group input{
+    padding: 12px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #1e293b;
+    color: white;
+    font-size: 14px;
+}
+
+.details-container button{
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 999px;
+    background-color: #4f46e5;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.details-container button:hover{
+    background-color: #4338ca;
+}
+
+
+/*removes number input controls */
+/*
+input[type="number"] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+}
+
+input[type="number"] ::-webkit-inner-spin-button, input[type="number"] ::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}*/
